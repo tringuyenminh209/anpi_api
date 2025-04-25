@@ -1,0 +1,119 @@
+{
+  "documents": [
+    {
+      "name": "report_uid_001_20250424",
+      "fields": {
+        "user_id": {
+          "stringValue" : "uid_001"
+        },
+        "department_id" : {
+          "stringValue" : "d001"
+        },
+        "is_safe": {
+          "booleanValue": true
+        },
+        "can_go_to_work": {
+          "booleanValue" : false
+        },
+        "note": {
+          "stringValue": "家が浸水していて出社できません。"
+        },
+        "updated_at": {
+          "timestampValue":"2025-04-24T08:15:00+09:00"
+        }
+      }
+    },
+    {
+      "name": "report_uid_002_20250424",
+      "fields": {
+        "user_id": {
+          "stringValue": "uid_002"
+        },
+        "department_id": {
+          "stringValue": "d001"
+        },
+        "is_safe": {
+          "booleanValue": true
+        },
+        "can_go_to_work": {
+          "booleanValue": true
+        },
+        "note": {
+          "stringValue": "問題なし。自転車で出社しました。"
+        },
+        "updated_at": {
+          "timestampValue": "2025-04-24T08:15:00+09:00"
+        }
+      }
+    },
+    {
+      "name": "report_uid_003_20250424",
+      "fields": {
+        "user_id": {
+          "stringValue": "uid_003"
+        },
+        "department_id": {
+          "stringValue": "d001"
+        },
+        "is_safe": {
+          "booleanValue": false
+        },
+        "can_go_to_work": {
+          "booleanValue": false
+        },
+        "note": {
+          "stringValue": "軽い怪我をして病院に行きました。"
+        },
+        "updated_at": {
+          "timestampValue": "2025-04-24T08:22:00+09:00"
+        }
+      }
+    },
+    {
+      "name": "report_uid_004_20250424",
+      "fields": {
+        "user_id": {
+          "stringValue": "uid_004"
+        },
+        "department_id": {
+          "stringValue": "d001"
+        },
+        "is_safe": {
+          "booleanValue": true
+        },
+        "can_go_to_work": {
+          "booleanValue": true
+        },
+        "note": {
+          "stringValue": "問題なく出社しています。"
+        },
+        "updated_at": {
+          "timestampValue": "2025-04-24T08:35:00+09:00"
+        }
+      }
+    },
+    {
+      "name": "report_uid_005_20250424",
+      "fields": {
+        "user_id": {
+          "stringValue": "uid_005"
+        },
+        "department_id": {
+          "stringValue": "d001"
+        },
+        "is_safe": {
+          "booleanValue": true
+        },
+        "can_go_to_work": {
+          "booleanValue": false
+        },
+        "note": {
+          "stringValue": "家の前の道路が冠水しています。"
+        },
+        "updated_at": {
+          "timestampValue": "2025-04-24T08:50:00+09:00"
+        }
+      }
+    }
+  ]
+}
