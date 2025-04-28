@@ -9,7 +9,6 @@ const port = 3000;
 // Firebaseの構成ファイルをインポート
 // const serviceAccount = require("./firebase-config.json");
 require("dotenv").config(); 
-
 const serviceAccount = {
   type: process.env.TYPE,
   project_id: process.env.PROJECT_ID,
