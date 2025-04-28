@@ -52,9 +52,9 @@ app.get("/api/departments", async(req, res) => {
 
 // Firestoreから全ての社員情報を取得
 // ルート: 社員情報の登録API
-app.get("/api/users", async(req, res) => {
+app.get("/api/employees", async(req, res) => {
   try {
-    const snapshot = await db.collection("users").get();
+    const snapshot = await db.collection("employees").get();
     const reports = snapshot.docs.map(doc => ({
       id: doc.id,
       ...doc.data()
@@ -100,20 +100,34 @@ app.get("/api/users", async(req, res) => {
 
 
 // Firestoreから全ての安否報告を取得
-app.get("/api/safety-reports", async (req, res) => {
-    try {
-      const snapshot = await db.collection("safety_reports").get();
-      const reports = snapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      }));
-      res.json(reports);
-    } catch (error) {
-      console.error("読み込みエラー:", error);
-      res.status(500).json({ error: "データの取得に失敗しました。" });
-    }
-  });
+app.get("/api/safety-status", async (req, res) => {
+  try {
+    const snapshot = await db.collection("safety_status").get();
+    const reports = snapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    }));
+    res.json(reports);
+  } catch (error) {
+    console.error("読み込みエラー:", error);
+    res.status(500).json({ error: "データの取得に失敗しました。" });
+  }
+});
 
+// Firestoreから全ての役割を取得
+app.get("/api/roles", async (req, res) => {
+  try {
+    const snapshot = await db.collection("roles").get();
+    const reports = snapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    }));
+    res.json(reports);
+  } catch (error) {
+    console.error("読み込みエラー:", error);
+    res.status(500).json({ error: "データの取得に失敗しました。" });
+  }
+});
 
 app.use(express.json());
 
