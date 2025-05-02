@@ -1,0 +1,21 @@
+[
+{
+    "id": "1",
+    "role_id": "1",
+    "name": "admin",
+    "label": "管理者"
+},
+{
+    "id": "2",
+    "role_id": "2",
+    "name": "manager",
+    "label": "マネージャー"
+},
+{
+    "id": "3",
+    "role_id": "3",
+    "name": "member",
+    "label": "メンバー"
+}
+]
+  

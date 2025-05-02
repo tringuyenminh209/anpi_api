@@ -1,0 +1,87 @@
+[
+  {
+    "id": "FFY0zpLOExOYIeuOxtOP",
+    "employee_id": "uid_001",
+    "name": "NGUYEN MINH TRI",
+    "password": "hashed_password_001",
+    "prefecture": "大阪府",
+    "address": "大阪市北区1-1-1",
+    "department_id": "d001",
+    "hire_date": {
+      "_seconds": 1743433200,
+      "_nanoseconds": 782000000
+    },
+    "phone_number": "090-1111-1111",
+    "email": "tri@example.com",
+    "position": "メンバー",
+    "role_id": "3"
+  },
+  {
+    "id": "On5EMkxv9H7nqiLv73yF",
+    "employee_id": "uid_003",
+    "name": "小林 碧唯",
+    "password": "hashed_password_003",
+    "prefecture": "大阪府",
+    "address": "大阪市北区3-3-3",
+    "department_id": "d002",
+    "hire_date": {
+      "_seconds": 1744124400,
+      "_nanoseconds": 109000000
+    },
+    "phone_number": "090-3333-3333",
+    "email": "aoi@example.com",
+    "position": "管理者",
+    "role_id": "1"
+  },
+  {
+    "id": "RKPPe8WvBWITGHWD0UEl",
+    "employee_id": "uid_005",
+    "name": "植野 天真",
+    "password": "hashed_password_005",
+    "prefecture": "大阪府",
+    "address": "大阪市北区5-5-5",
+    "department_id": "d001",
+    "hire_date": {
+      "_seconds": 1745420400,
+      "_nanoseconds": 441000000
+    },
+    "position": "メンバー",
+    "phone_number": "090-5555-5555",
+    "role_id": "3",
+    "email": "tenma@example.com"
+  },
+  {
+    "id": "g2VZNYl5WJ5HXJqVvhS7",
+    "employee_id": "uid_002",
+    "name": "小林 多聞",
+    "password": "hashed_password_002",
+    "prefecture": "prefecture",
+    "address": "大阪市北区2-2-2",
+    "department_id": "d001",
+    "hire_date": {
+      "_seconds": 1744038000,
+      "_nanoseconds": 852000000
+    },
+    "phone_number": "090-2222-2222",
+    "email": "takumi@example.com",
+    "role_id": "2",
+    "position": "マネージャー"
+  },
+  {
+    "id": "sTdDouJONJuKoHsBHNte",
+    "employee_id": "uid_004",
+    "name": "山本 悠生",
+    "password": "hashed_password_004",
+    "prefecture": "大阪府",
+    "address": "大阪市北区4-4-",
+    "department_id": "d003",
+    "hire_date": {
+      "_seconds": 1745420400,
+      "_nanoseconds": 349000000
+    },
+    "position": "メンバー",
+    "phone_number": "090-4444-4444",
+    "role_id": "3",
+    "email": "yuki@example.com"
+  }
+]

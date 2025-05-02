@@ -1,0 +1,32 @@
+[
+  {
+    "id": "report_uid_001_20240425",
+    "status_id": "uuid-001",
+    "employee_id": "uid_001",
+    "safety_state": "安全",
+    "is_attendable": true,
+    "note": "問題なし",
+    "location": "大阪市 北区",
+    "latitude": 34.7055,
+    "longitude": 135.5008,
+    "updated_at": {
+      "_seconds": 1745679600,
+      "_nanoseconds": 989000000
+    }
+  },
+  {
+    "id": "report_uid_002_20240425",
+    "status_id": "uuid-002",
+    "employee_id": "uid_002",
+    "safety_state": "要救助",
+    "is_attendable": false,
+    "note": "足を怪我しました",
+    "location": "大阪市 中央区",
+    "latitude": 34.6937,
+    "longitude": 135.5023,
+    "updated_at": {
+      "_seconds": 1745679600,
+      "_nanoseconds": 206000000
+    }
+  }
+]

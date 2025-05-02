@@ -1,0 +1,17 @@
+[
+  {
+    "id": "d001",
+    "department_id": "d001",
+    "department_name": "システム開発部"
+  },
+  {
+    "id": "d002",
+    "department_id": "d002",
+    "department_name": "総務部"
+  },
+  {
+    "id": "d003",
+    "department_id": "d003",
+    "department_name": "営業部"
+  }
+]
